@@ -1,0 +1,43 @@
+
+.chartdiv {
+    width: 35rem;
+    height: 25em;
+    font-size: 11px;
+    border: 0px solid #eee;
+    /* position: absolute; */
+    /* float: left; */
+  }
+.legend {
+    width: 35rem; 
+    height: 7em;
+    border: 0px solid #eee;
+    float:left
+  
+  }
+  
+  .legend .legend-item {
+    margin: 1rem;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    /* cursor: pointer; */
+  }
+  
+  .legend .legend-item .legend-value {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-left: 22px;
+  }
+  
+  .legend .legend-item .legend-marker {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 0px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .legend .legend-item.disabled .legend-marker {
+    opacity: 0.5;
+    background: #ddd;
+  } 
